@@ -1,0 +1,134 @@
+
+// Settings
+$baseline: 6px;
+$content-bg: #efeff4;
+$yelpy-red: #c41200;
+
+@function spacing($units, $offset: 0px) {
+	@return $units * $baseline + $offset;
+}
+
+.fade-in {
+	opacity: 1 !important;
+}
+
+
+/** Main view */
+
+.main {
+	overflow: hidden;
+}
+
+.main .slider {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	background: $content-bg;
+	transition: all 0.2s linear;
+
+	&:last-child {
+		opacity: 1;
+	}
+
+	$decision-offset: 600px;
+
+	&.passed {
+		-webkit-transform: translateX(-1 * $decision-offset);
+	}
+
+	&.liked {
+		-webkit-transform: translateX($decision-offset);
+	}
+
+	.thumbnail {
+		position: relative;
+		height: 300px;
+
+		a {
+			display: block;
+		}
+
+		img {
+			border-radius: spacing(1) spacing(1) 0 0;
+			display: block;
+		}
+	}
+
+	.caption {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: spacing(2);
+		font-size: 29px;
+		font-weight: 200;
+		color: white;
+		background: rgba(0, 0, 0, 0.5);
+		text-shadow: 0 1px 5px black;
+	}
+}
+
+.rock-bottom {
+	position: absolute;
+	width: 100%;
+	margin-top: 220px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0, 0, 0, .25);
+	opacity: 0;
+}
+
+.passport ul {
+	list-style: none;
+	padding: spacing(1) 0;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	border-radius: 0 0 spacing(1) spacing(1);
+
+	li {
+		padding: spacing(1) spacing(2);
+		width: 50%;
+		float: left;
+	}
+
+	.badge {
+		font-size: 1.25em;
+	}
+
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+		height: 0;
+	}
+}
+
+
+/** Profile */
+.profile {
+	.slider {
+		height: 300px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	dl {
+		margin: 0;
+	}
+
+	dt,
+	dd {
+		margin: 0;
+		display: block;
+	}
+
+	dt {
+		font-weight: bold;
+	}
+
+	dd {
+		margin-bottom: spacing(2);
+	}
+}

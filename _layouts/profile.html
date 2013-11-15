@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<header class="bar-nav">
+	<a class="button-prev" href="main.html">Back</a>
+	<h1 class="title">{{ page.name }}</h1>
+	<a class="button">✕</a>
+	<a class="button">♥</a>
+</header>
+
+<div class="content profile">
+	<div class="slider">
+		<ul>
+			{% for photo in page.photos %}
+				<li>
+					<img src="{{photo}}">
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<div class="content-padded">
+		{{ content }}
+	</div>
+</div>

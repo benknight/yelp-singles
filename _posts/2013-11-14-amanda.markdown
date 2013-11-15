@@ -1,0 +1,59 @@
+---
+layout: profile
+name: Amanda
+title: Amanda
+age: 26
+passport:
+ num_reviews: 82
+ num_photos: 13
+ num_compliments: 9
+ num_friends: 17
+photos:
+ - http://s3-media2.ak.yelpcdn.com/photo/uPY9lkFliHY01zSOgK9JLQ/300s.jpg
+ - http://s3-media3.ak.yelpcdn.com/photo/EMM4HqI1mV7SwqXen6knJw/300s.jpg
+---
+
+Location
+: New York, NY
+
+Yelping Since
+: October 2012
+
+Things I Love
+: Pop Corners, Otis Oedding, Walking, drive-in movies, blazers, etc...
+
+Find Me In
+: Inwood
+
+My Hometown
+: Portland, ME
+
+When I'm Not Yelping...
+: I'm working or milling around.
+
+Why You Should Read My Reviews
+: I travel from my job...So I eat out for just about every meal.
+
+My Second Favorite Website
+: Sosh
+
+The Last Great Book I Read
+: The Praise of Motherhood
+
+My First Concert
+: N'sync
+
+My Favorite Movie
+: Hudson Hawk
+
+My Last Meal On Earth
+: real tom yum kung
+
+Don't Tell Anyone Else But...
+: Shaggy has a cameo role on almost every playlist I make...
+
+Most Recent Discovery
+: oatmeal.
+
+Current Crush
+: I really do love Hayden Panettiere (but from Heros)

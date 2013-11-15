@@ -1,0 +1,63 @@
+---
+layout: default
+title: Mingle | Suggestions
+---
+
+<header class="bar-nav">
+	<h1 class="title">Mingle</h1>
+</header>
+
+<div class="main content">
+
+		<!-- bottom of the stack -->
+		<div class="rock-bottom">
+			No more suggestions!
+		</div>
+
+		{% for person in site.posts %}
+		<div class="slider content-padded">
+			<ul>
+				<li>
+					<div class="thumbnail">
+						<a href="{{ person.url }}" data-transition="slide-in">
+							<img src="{{ person.photos[0] }}">
+						</a>
+						<div class="caption">
+							{{ person.name }}, {{ person.age }}
+						</div>
+					</div>
+					<div class="passport">
+						<ul>
+							<li class="reviews">
+								<span class="badge">
+									{{ person.passport.num_reviews }}
+									</span>
+									reviews
+							</li>
+							<li class="tips">
+								<span class="badge">
+									{{ person.passport.num_photos }}
+									</span>
+									photos
+							</li>
+							<li class="compliments">
+								<span class="badge">
+									{{ person.passport.num_compliments }}
+								</span>
+								compliments
+							</li>
+							<li class="friends">
+								<span class="badge">
+									{{ person.passport.num_friends }}
+								</span>
+								friends
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		{% endfor %}
+
+	</div>
+</div>
