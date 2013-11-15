@@ -1,0 +1,47 @@
+<div class="slider content-padded">
+	<ul>
+		<li>
+			<div class="thumbnail">
+				<a href="{{ person.url }}" data-transition="slide-in">
+					<img src="{{ person.photos[0] }}">
+				</a>
+				<div class="caption">
+					<h2>{{ person.name }}, {{ person.age }}</h2>
+					<p>“{{ person.blurb }}”</p>
+				</div>
+			</div>
+			<div class="passport">
+				<ul>
+					<li class="reviews">
+						<i class="i i-reviews"></i>
+						<span class="badge">
+							{{ person.passport.num_reviews }}
+							</span>
+							reviews
+					</li>
+					<li class="photos">
+						<i class="i i-photos"></i>
+						<span class="badge">
+							{{ person.passport.num_photos }}
+							</span>
+							photos
+					</li>
+					<li class="compliments">
+						<i class="i i-compliments"></i>
+						<span class="badge">
+							{{ person.passport.num_compliments }}
+						</span>
+						compliments
+					</li>
+					<li class="friends">
+						<i class="i i-friends"></i>
+						<span class="badge">
+							{{ person.passport.num_friends }}
+						</span>
+						friends
+					</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>

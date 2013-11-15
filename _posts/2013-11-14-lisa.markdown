@@ -1,0 +1,39 @@
+---
+layout: profile
+name: Lisa
+age: 24
+sex: F
+
+blurb: jinjja baegopa
+
+passport:
+ num_reviews: 189
+ num_photos: 9
+ num_compliments: 340
+ num_friends: 61
+
+photos:
+ - http://s3-media4.ak.yelpcdn.com/photo/Xnr_yEzemymoXq6JLPq33A/300s.jpg
+ - http://s3-media2.ak.yelpcdn.com/photo/GdyrJ5WkRsMr3KfupTqZWA/300s.jpg
+ - http://s3-media4.ak.yelpcdn.com/photo/nASV3D7WLjpTV_r8_BzJgw/300s.jpg
+ - http://s3-media3.ak.yelpcdn.com/photo/9w0yvS8tYwQxJ7OkonZdzA/300s.jpg
+
+attributes:
+ - name: Location
+   value: Los Angeles, CA
+
+ - name: Yelping Since
+   value: April 2009
+
+ - name: Things I Love
+   value: to Eat Eat Eat
+
+ - name: My Hometown
+   value: 626
+
+ - name: When I'm Not Yelping...
+   value: i blog and heal my soul with retail therapy and food
+
+ - name: Current Crush
+   value: Taking pictures of everything I'm about to eat
+---

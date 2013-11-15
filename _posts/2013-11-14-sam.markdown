@@ -1,0 +1,47 @@
+---
+layout: profile
+name: Sam
+age: 26
+sex: M
+
+blurb: im on the SEEfood diet
+
+passport:
+ num_reviews: 766
+ num_photos: 5
+ num_compliments: 67
+ num_friends: 38
+
+photos:
+ - http://s3-media4.ak.yelpcdn.com/photo/G1DfUT3YoQ0YGOmee81WCw/300s.jpg
+ - http://s3-media4.ak.yelpcdn.com/photo/Fxx6l53RASkNXoopUpuTYQ/300s.jpg
+ - http://s3-media4.ak.yelpcdn.com/photo/PO8DdqGD238siMlnl9t4jg/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/_U9N0tW4i-MU7lGw6Rv3qA/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/WOmBjvcGxX7ZsM3fdh3cxw/300s.jpg
+
+
+attributes:
+ - name: Location
+   value: San Francisco, CA
+
+ - name: Yelping Since
+   value: August 2009
+
+ - name: Things I Love
+   value: playing sports, hanging out, sleeping
+
+ - name: Find Me In
+   value: t shirt and shorts
+
+ - name: My Hometown
+   value: The City
+
+ - name: Why You Should Read My Reviews
+   value: cuz i give it to you straight
+
+ - name: My Second Favorite Website
+   value: http://www.swagbucks.com…
+
+ - name: My Last Meal On Earth
+   value: something with steak
+---

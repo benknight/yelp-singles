@@ -1,0 +1,46 @@
+---
+layout: profile
+name: Allison
+age: 28
+sex: F
+
+blurb: meow
+
+passport:
+ num_reviews: 30
+ num_photos: 0
+ num_compliments: 7
+ num_friends: 98
+
+photos:
+ - http://s3-media1.ak.yelpcdn.com/photo/f0LTTims8Om7FT4l75haxg/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/wUnLSg_GKfEIQ5CQQ770_g/300s.jpg
+ - http://s3-media3.ak.yelpcdn.com/photo/R1hF6qGXbTBwiLhKs4XC7w/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/epaxSmtWwSoan-R2HiqLUw/300s.jpg
+ - http://s3-media3.ak.yelpcdn.com/photo/0tovCx1G1JcIh8QBDlCmcA/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/sTPueJEwcRDj7ZJmG7okYA/300s.jpg
+ - http://s3-media2.ak.yelpcdn.com/photo/PP3BBaVxZLcJU54uP_wL6Q/300s.jpg
+ - http://s3-media3.ak.yelpcdn.com/photo/H75fAaZTRzER1poWf1N-Uw/300s.jpg
+
+attributes:
+ - name: Location
+   value: San Francisco, CA
+ - name: Yelping Since
+   value: March 2012
+ - name: Things I Love
+   value: comma separated phrases
+ - name: Find Me In
+   value: in a dress
+ - name: My Hometown
+   value: San Diego, CA
+ - name: My Blog Or Website
+   value: http://www.awkwardally.b…
+ - name: When I'm Not Yelping...
+   value: I'm eating bacon-wrapped hot dogs
+ - name: Why You Should Read My Reviews
+   value: I'm really good at making babies cry
+ - name: Don't Tell Anyone Else But...
+   value: I loathe bananas
+ - name: Current Crush
+   value: red nail polish
+---

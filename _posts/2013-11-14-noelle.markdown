@@ -1,0 +1,40 @@
+---
+layout: profile
+name: Noelle
+age: 23
+sex: F
+
+blurb: I Yelp, therefore I am.
+
+passport:
+ num_reviews: 213
+ num_photos: 3
+ num_compliments: 55
+ num_friends: 113
+
+photos:
+ - http://s3-media4.ak.yelpcdn.com/photo/LPU0lcUpbtvdaLfTNaqc5w/300s.jpg
+ - http://s3-media3.ak.yelpcdn.com/photo/0cZGxRwncbSYQ45Z8QllhQ/300s.jpg
+
+attributes:
+ - name: Location
+   value: San Francisco, CA
+
+ - name: Yelping Since
+   value: February 2011
+
+ - name: Things I Love
+   value: good company, perfect weather, wine, strong hugs, wasabi, bottled water, EDM, flip flops, make up, big dogs, thai ice tea, nail polish, netflix, dehydrated fruit, glittery things
+
+ - name: My Hometown
+   value: Naples, FL
+
+ - name: When I'm Not Yelping...
+   value: I'm procrastinating something important
+
+ - name: Why You Should Read My Reviews
+   value: I only speak the truth!
+
+ - name: My Last Meal On Earth
+   value: My mom's pan fried whole snapper, a bowl of rice, and kimchi
+---

@@ -1,0 +1,12 @@
+---
+layout: recommendations
+title: Yelp Singles | Suggestions
+---
+
+{% for person in site.posts %}
+	{% if person.sex == 'F' %}
+
+		{% include rec.html %}
+
+	{% endif %}
+{% endfor %}

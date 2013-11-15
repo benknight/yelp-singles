@@ -1,0 +1,42 @@
+---
+layout: profile
+name: Tracy
+age: 23
+sex: F
+
+blurb: If gluttony is sin, then I'm a BAD muthaf*****!
+
+passport:
+ num_reviews: 195
+ num_photos: 5
+ num_compliments: 65
+ num_friends: 89
+
+photos:
+ - http://s3-media2.ak.yelpcdn.com/photo/Nxk6HOl8C9bMPcrw3qTH_A/300s.jpg
+ - http://s3-media2.ak.yelpcdn.com/photo/WMG4qrI9GzjSZgXZYZnrBQ/300s.jpg
+ - http://s3-media4.ak.yelpcdn.com/photo/LatSup4MR3Fz_U--wq-rPA/300s.jpg
+ - http://s3-media4.ak.yelpcdn.com/photo/XB2FAPmD8bPhuNnil0mTQA/300s.jpg
+
+attributes:
+ - name: Location
+   value: San Francisco, CA
+
+ - name: Yelping Since
+   value: April 2011
+
+ - name: Find Me In
+   value: a food coma.
+
+ - name: When I'm Not Yelping...
+   value: I'm attending mob meetings.
+
+ - name: Why You Should Read My Reviews
+   value: because people love me on Yelp!
+
+ - name: Don't Tell Anyone Else But...
+   value: I'm a radical revolutionary; my Yelp reviews are just a front.
+
+ - name: Most Recent Discovery
+   value: No one really reads this stuff.
+---

@@ -1,0 +1,59 @@
+---
+layout: profile
+name: Ben
+age: 26
+sex: M
+
+blurb: Internet entrepreneur fantasizing of being restauranteur
+
+passport:
+ num_reviews: 295
+ num_photos: 4
+ num_compliments: 23
+ num_friends: 127
+
+photos:
+ - http://s3-media4.ak.yelpcdn.com/photo/8lbbgzrFFW7-X9zmX9D3fg/300s.jpg
+ - http://s3-media2.ak.yelpcdn.com/photo/E-Z0PVVnYVxlVt1wyniMFA/300s.jpg
+ - http://s3-media3.ak.yelpcdn.com/photo/4i5e0raY3lry8H4NoSs_rg/300s.jpg
+
+attributes:
+ -  name: Location
+    value: San Francisco, CA
+
+ -  name: Yelping Since
+    value: December 2007
+
+ -  name: Things I Love
+    value: off-menu items, sushi, yakitori, coffee, tea, burgers
+
+ -  name: Find Me In
+    value: Financial District without good food at night
+
+ -  name: My Blog Or Website
+    value: http://iamvictorio.us
+
+ -  name: When I'm Not Yelping...
+    value: I'm entrepreneuring
+
+ -  name: Why You Should Read My Reviews
+    value: I'm succinct.
+
+ -  name: My Second Favorite Website
+    value: http://nytimes.com
+
+ -  name: The Last Great Book I Read
+    value: Bright Lights, Big City
+
+ -  name: My Favorite Movie
+    value: The Thomas Crown Affair
+
+ -  name: My Last Meal On Earth
+    value: In-N-Out double meat animal style
+
+ -  name: Don't Tell Anyone Else But...
+    value: I use a pseudonym at Starbucks and anywhere else that asks for a name.
+
+ -  name: Most Recent Discovery
+    value: Settlers of Catan
+---

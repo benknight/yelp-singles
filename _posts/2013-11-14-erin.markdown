@@ -1,0 +1,52 @@
+---
+layout: profile
+name: Erin
+age: 29
+sex: F
+
+blurb: Do you have the dessert menu?
+
+passport:
+ num_reviews: 196
+ num_photos: 4
+ num_compliments: 399
+ num_friends: 212
+
+photos:
+ - http://s3-media1.ak.yelpcdn.com/photo/XBNQBtMc-sAuTcgDo2m6tQ/300s.jpg
+ - http://s3-media4.ak.yelpcdn.com/photo/cYT_2JMyeNoCxJyNIaykIw/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/VpOhnS3f764FdLGIxauPww/300s.jpg
+ - http://s3-media3.ak.yelpcdn.com/photo/iFdjVihFIYexejCOenFO3w/300s.jpg
+
+
+attributes:
+ - name: Location
+   value: San Francisco, CA
+
+ - name: Yelping Since
+   value: January 2013
+
+ - name: Things I Love
+   value: Stuffing my face.
+
+ - name: Find Me In
+   value: The South Bay
+
+ - name: My Hometown
+   value: San Jose, CA
+
+ - name: When I'm Not Yelping...
+   value: I'm on instagram straight flexin' WOO
+
+ - name: Why You Should Read My Reviews
+   value: You shouldn't, they're terrible.
+
+ - name: My First Concert
+   value: Slightly Stoopid & Snoop Dogg
+
+ - name: My Favorite Movie
+   value: Anchorman
+
+ - name: My Last Meal On Earth
+   value: Me. Judge. Iron Chef.
+---

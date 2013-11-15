@@ -12,6 +12,75 @@ $yelpy-red: #c41200;
 	opacity: 1 !important;
 }
 
+.popover:after {
+	left: 85%;
+}
+
+.alert {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	bottom: 15px;
+	text-align: center;
+}
+
+.alert.visible {
+	opacity: 1;
+}
+
+.table-view .table-view-cell {
+	padding-right: 20px;
+}
+
+.biz-thumb {
+	display: block;
+	float: left;
+	font-size: 0.6em;
+	line-height: 1.3;
+	width: (1 / 6) * 100%;
+	padding-right: spacing(1);
+
+	img {
+		width: 100%;
+		height: auto;
+		border-radius: spacing(0.5);
+	}
+}
+
+
+/** Signup */
+
+.signup {
+	background: url(/assets/splash-alt.gif) no-repeat;
+	background-size: cover;
+}
+
+.signup-ctrl {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding: 0 20px 20px;
+	text-align: center;
+	background: rgba(255, 255, 255, .9);
+	transition: -webkit-transform 0.3s ease-out;
+
+	p, ul {
+		margin: spacing(3) 0;
+	}
+
+	.girls.selected {
+		background: #FF8FA2;
+		border-left-color: #FF8FA2;
+	}
+}
+
+.signup-ctrl.hide {
+	-webkit-transform: translateY(100%);
+}
+
+.signup-ctrl.visible {
+	-webkit-transform: translateY(0);
+}
+
 
 /** Main view */
 
@@ -61,11 +130,22 @@ $yelpy-red: #c41200;
 		bottom: 0;
 		left: 0;
 		padding: spacing(2);
-		font-size: 29px;
 		font-weight: 200;
 		color: white;
 		background: rgba(0, 0, 0, 0.5);
 		text-shadow: 0 1px 5px black;
+
+		& > * {
+			margin: 0;
+		}
+
+		h2 {
+			font-weight: 200;
+		}
+
+		p {
+			color: rgba(255, 255, 255, 0.8);
+		}
 	}
 }
 
@@ -89,6 +169,11 @@ $yelpy-red: #c41200;
 		padding: spacing(1) spacing(2);
 		width: 50%;
 		float: left;
+	}
+
+	.i {
+		float: left;
+		margin-right: spacing(1);
 	}
 
 	.badge {
@@ -131,4 +216,57 @@ $yelpy-red: #c41200;
 	dd {
 		margin-bottom: spacing(2);
 	}
+}
+
+
+/** Icons */
+
+.i {
+	display: inline-block;
+	background: url(/assets/icons.png) no-repeat;
+	background-size: 323px 72px;
+}
+
+.i-reviews {
+	width: 21px;
+	height: 21px;
+	background-position: -26px -4px;
+}
+
+.i-photos {
+	width: 21px;
+	height: 17px;
+	background-position: -283px -6px;
+}
+
+.i-compliments {
+	width: 20px;
+	height: 20px;
+	background-position: -154px -5px;
+}
+
+.i-friends {
+	width: 23px;
+	height: 20px;
+	background-position: -3px -47px;
+}
+
+.elite-tags {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+/** Misc */
+
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
 }

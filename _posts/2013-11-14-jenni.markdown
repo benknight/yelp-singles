@@ -1,0 +1,59 @@
+---
+layout: profile
+name: Jenni
+age: 22
+sex: F
+
+blurb: Little girl, big appetite. NOMZ!
+
+passport:
+ num_reviews: 103
+ num_photos: 6
+ num_compliments: 28
+ num_friends: 141
+
+photos:
+ - http://s3-media1.ak.yelpcdn.com/photo/xF0Xe4XImOnj15RB3CbPqA/300s.jpg
+ - http://s3-media4.ak.yelpcdn.com/photo/H1G0eYxce6IFPD_idrMXHg/300s.jpg
+ - http://s3-media2.ak.yelpcdn.com/photo/UmXM4fe61U8NTNcfMbcwDg/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/pTfgtIaaxkfrvz-oNbCJww/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/S0Pj5OB7w_wSGw-8o4ANTw/300s.jpg
+
+
+attributes:
+ - name: Location
+   value: San Francisco, CA
+
+ - name: Yelping Since
+   value: April 2011
+
+ - name: Things I Love
+   value: family, friends, seafood, meat, dessert, and GOOD food
+
+ - name: Find Me In
+   value: my bed, napping!
+
+ - name: My Hometown
+   value: San Francisco, CA
+
+ - name: When I'm Not Yelping...
+   value: I'm probably being Snorlax or stuffing my face!
+
+ - name: Why You Should Read My Reviews
+   value: cause I'll give you real reviews of what I think with a little story to it!
+
+ - name: The Last Great Book I Read
+   value: 50 Shades of Grey ;)
+
+ - name: My First Concert
+   value: Jason Chen!
+
+ - name: My Favorite Movie
+   value: Click, Wreck It Ralph, Titanic, 21 Jump Street, Cinderella
+
+ - name: My Last Meal On Earth
+   value: my mom's cooking! :D
+
+ - name: Most Recent Discovery
+   value: Indian food...
+---

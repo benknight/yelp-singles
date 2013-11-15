@@ -2,11 +2,27 @@
 layout: default
 ---
 
+{% if page.sex == 'F' %}
+	{% assign back_href = '/girls.html' %}
+{% else %}
+	{% assign back_href = '/boys.html' %}
+{% endif %}
+
 <header class="bar-nav">
-	<a class="button-prev" href="main.html">Back</a>
-	<h1 class="title">{{ page.name }}</h1>
-	<a class="button">✕</a>
-	<a class="button">♥</a>
+	<a class="button-prev"
+			href="{{ back_href }}"
+			data-transition="slide-out">
+		Back
+	</a>
+
+
+	<h1 class="title">{{ page.name }}, {{ page.age }}</h1>
+
+	<div class="button">
+		<a href="{{ back_href }}" data-transition="slide-out">✕</a>
+		&nbsp;
+		<a href="{{ back_href }}" data-transition="slide-out">♥</a>
+	</div>
 </header>
 
 <div class="content profile">
@@ -20,7 +36,46 @@ layout: default
 		</ul>
 	</div>
 
-	<div class="content-padded">
-		{{ content }}
-	</div>
+	<ul class="table-view">
+		{% if page.elite %}
+			<li class="table-view-cell">
+				<img src="/assets/elite-tags.png" class="elite-tags">
+			</li>
+		{% endif %}
+		<li class="table-view-cell">
+			{{ page.blurb }}
+		</li>
+		<li class="table-view-cell table-view-divider">
+			Regular At
+		</li>
+		<li class="table-view-cell clearfix">
+			<div class="biz-thumb">
+				<img src="http://lorempixel.com/g/200/200/?v=1" width="52" height="52"><br>
+				Zeitgeist
+			</div>
+			<div class="biz-thumb">
+				<img src="http://lorempixel.com/g/200/200/?v=2" width="52" height="52"><br>
+				El Metate
+			</div>
+			<div class="biz-thumb">
+				<img src="http://lorempixel.com/g/200/200/?v=3" width="52" height="52"><br>
+				Trouble Coffee
+			</div>
+			<div class="biz-thumb">
+				<img src="http://lorempixel.com/g/200/200/?v=4" width="52" height="52"><br>
+				Yelp
+			</div>
+			<div class="biz-thumb">
+				<img src="http://lorempixel.com/g/200/200/?v=5" width="52" height="52"><br>
+				Sports Club LA
+			</div>
+		</li>
+		{% for attr in page.attributes %}
+			<li class="table-view-cell table-view-divider">
+				{{ attr.name }}
+			</li>
+			<li class="table-view-cell">
+				{{ attr.value }}
+			</li>
+		{% endfor %}
 </div>

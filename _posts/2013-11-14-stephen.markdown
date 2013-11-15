@@ -1,0 +1,60 @@
+---
+layout: profile
+name: Stephen
+age: 30
+sex: M
+
+blurb: I bleed coffee!
+
+passport:
+ num_reviews: 442
+ num_photos: 7
+ num_compliments: 437
+ num_friends: 970
+
+photos:
+ - http://s3-media3.ak.yelpcdn.com/photo/vShzQj4GqwZh6uzbhLdHwQ/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/R2mosiT-mef_T3ilj0GVfA/300s.jpg
+ - http://s3-media4.ak.yelpcdn.com/photo/1EtWTmPlZlH1RrzsamtP2w/300s.jpg
+ - http://s3-media3.ak.yelpcdn.com/photo/0M0LAY0mTmsTj5fjkEwxeQ/300s.jpg
+
+attributes:
+ - name: Location
+   value: Berkeley, CA
+
+ - name: Yelping Since
+   value: May 2010
+
+ - name: Things I Love
+   value: trying new foods, exploring the unexplored, hanging out with friends
+
+ - name: Find Me In
+   value: a coffee shop that serves only the best coffee.
+
+ - name: My Hometown
+   value: Downey, CA
+
+ - name: When I'm Not Yelping...
+   value: I'm stuffing my face with amazing food!
+
+ - name: Why You Should Read My Reviews
+   value: Honesty is key! Tell it straight, without the snob!
+
+ - name: My Second Favorite Website
+   value: http://www.ted.com
+
+ - name: The Last Great Book I Read
+   value: The Eight, The Fire, The Mary Russell series (Laurie R. King)
+
+ - name: My Favorite Movie
+   value: Every James Bond Movie!!
+
+ - name: My Last Meal On Earth
+   value: An excellent cup of coffee and Boston lobster rolls!
+
+ - name: Don't Tell Anyone Else But...
+   value: Brunch is serious business...
+
+ - name: Current Crush
+   value: GFP
+---

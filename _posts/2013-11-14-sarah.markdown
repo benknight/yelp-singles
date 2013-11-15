@@ -1,0 +1,62 @@
+---
+layout: profile
+name: Sarah
+age: 27
+sex: F
+
+blurb: Learning to step my Yelp game up!
+
+passport:
+ num_reviews: 128
+ num_photos: 4
+ num_compliments: 34
+ num_friends: 81
+
+photos:
+ - http://s3-media3.ak.yelpcdn.com/photo/6Tp8n9wVpsaPrBD0uyG60w/300s.jpg
+ - http://s3-media2.ak.yelpcdn.com/photo/8XWEh1bCMlNe4fy1NGBBoA/300s.jpg
+ - http://s3-media3.ak.yelpcdn.com/photo/D-h0IuyGPkZeM_qh4M2dVA/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/pTfgtIaaxkfrvz-oNbCJww/300s.jpg
+ - http://s3-media2.ak.yelpcdn.com/photo/rfPMmZXC1Nka-DimroMvCA/300s.jpg
+
+
+attributes:
+ - name: Location
+   value: Seattle, WA
+
+ - name: Yelping Since
+   value: February 2011
+
+ - name: Things I Love
+   value: Food, teaching, the color pink, learning, sleep, animals, court shows, J.Pinder, converse shoes
+
+ - name: Find Me In
+   value: Seattle
+
+ - name: My Hometown
+   value: Seattle, WA
+
+ - name: My Blog Or Website
+   value: http://www.facebook.com/…
+
+ - name: When I'm Not Yelping...
+   value: I'm in class
+
+ - name: Why You Should Read My Reviews
+   value: I like to talk about food
+
+ - name: My First Concert
+   value: Wyclef Jean
+
+ - name: My Favorite Movie
+   value: 500 Days of Summer
+
+ - name: My Last Meal On Earth
+   value: Steak with rice and ketchup
+
+ - name: Most Recent Discovery
+   value: yelp!
+
+ - name: Current Crush
+   value: Paula Patton
+---

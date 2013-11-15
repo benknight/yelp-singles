@@ -1,59 +1,51 @@
 ---
 layout: profile
 name: Amanda
-title: Amanda
-age: 26
+age: 25
+sex: F
+elite: true
+
+blurb: Me+yelp=chomp, gulp, enjoy.
+
 passport:
  num_reviews: 82
  num_photos: 13
  num_compliments: 9
  num_friends: 17
+
 photos:
  - http://s3-media2.ak.yelpcdn.com/photo/uPY9lkFliHY01zSOgK9JLQ/300s.jpg
  - http://s3-media3.ak.yelpcdn.com/photo/EMM4HqI1mV7SwqXen6knJw/300s.jpg
+
+attributes:
+ - name: Location
+   value: New York, NY
+ - name: Yelping Since
+   value: October 2012
+ - name: Things I Love
+   value: Pop Corners, Otis Oedding, Walking, drive-in movies, blazers, etc...
+ - name: Find Me In
+   value: Inwood
+ - name: My Hometown
+   value: Portland, ME
+ - name: When I'm Not Yelping...
+   value: I'm working or milling around.
+ - name: Why You Should Read My Reviews
+   value: I travel from my job...So I eat out for just about every meal.
+ - name: My Second Favorite Website
+   value: Sosh
+ - name: The Last Great Book I Read
+   value: The Praise of Motherhood
+ - name: My First Concert
+   value: N'sync
+ - name: My Favorite Movie
+   value: Hudson Hawk
+ - name: My Last Meal On Earth
+   value: real tom yum kung
+ - name: Don't Tell Anyone Else But...
+   value: Shaggy has a cameo role on almost every playlist I make...
+ - name: Most Recent Discovery
+   value: oatmeal.
+ - name: Current Crush
+   value: I really do love Hayden Panettiere (but from Heros
 ---
-
-Location
-: New York, NY
-
-Yelping Since
-: October 2012
-
-Things I Love
-: Pop Corners, Otis Oedding, Walking, drive-in movies, blazers, etc...
-
-Find Me In
-: Inwood
-
-My Hometown
-: Portland, ME
-
-When I'm Not Yelping...
-: I'm working or milling around.
-
-Why You Should Read My Reviews
-: I travel from my job...So I eat out for just about every meal.
-
-My Second Favorite Website
-: Sosh
-
-The Last Great Book I Read
-: The Praise of Motherhood
-
-My First Concert
-: N'sync
-
-My Favorite Movie
-: Hudson Hawk
-
-My Last Meal On Earth
-: real tom yum kung
-
-Don't Tell Anyone Else But...
-: Shaggy has a cameo role on almost every playlist I make...
-
-Most Recent Discovery
-: oatmeal.
-
-Current Crush
-: I really do love Hayden Panettiere (but from Heros)

@@ -1,0 +1,33 @@
+---
+layout: profile
+name: Jen
+age: 32
+sex: F
+
+blurb: I am a mystery diner, similar to a mystery shopper :)
+
+passport:
+ num_reviews: 879
+ num_photos: 12
+ num_compliments: 134
+ num_friends: 130
+
+photos:
+ - http://s3-media3.ak.yelpcdn.com/photo/8PG3q8ott3yG9NUTyvhgBQ/300s.jpg
+ - http://s3-media2.ak.yelpcdn.com/photo/nUyNuDPqBJv3IPeDAQ1cig/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/oWncinU4LGXCLSna5gpQWA/300s.jpg
+ - http://s3-media4.ak.yelpcdn.com/photo/h4gTRxFHKwqwk4zKJG2W5g/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/QloqJDf0JJ7YRcd4QSbrOw/300s.jpg
+ - http://s3-media1.ak.yelpcdn.com/photo/U3bhUkk00GikMn7wcwppNg/300s.jpg
+
+
+attributes:
+ - name: Location
+   value: San Jose, CA
+
+ - name: Yelping Since
+   value: March 2008
+
+ - name: Why You Should Read My Reviews
+   value: I avoid yelping franchised/known businesses, unless there's a reason to ;)
+---
