@@ -13,14 +13,14 @@ passport:
  num_friends: 98
 
 photos:
- - http://s3-media1.ak.yelpcdn.com/photo/f0LTTims8Om7FT4l75haxg/300s.jpg
- - http://s3-media1.ak.yelpcdn.com/photo/wUnLSg_GKfEIQ5CQQ770_g/300s.jpg
- - http://s3-media3.ak.yelpcdn.com/photo/R1hF6qGXbTBwiLhKs4XC7w/300s.jpg
- - http://s3-media1.ak.yelpcdn.com/photo/epaxSmtWwSoan-R2HiqLUw/300s.jpg
- - http://s3-media3.ak.yelpcdn.com/photo/0tovCx1G1JcIh8QBDlCmcA/300s.jpg
- - http://s3-media1.ak.yelpcdn.com/photo/sTPueJEwcRDj7ZJmG7okYA/300s.jpg
- - http://s3-media2.ak.yelpcdn.com/photo/PP3BBaVxZLcJU54uP_wL6Q/300s.jpg
- - http://s3-media3.ak.yelpcdn.com/photo/H75fAaZTRzER1poWf1N-Uw/300s.jpg
+ - http://placehold.it/300
+ - http://placehold.it/300
+ - http://placehold.it/300
+ - http://placehold.it/300
+ - http://placehold.it/300
+ - http://placehold.it/300
+ - http://placehold.it/300
+ - http://placehold.it/300
 
 attributes:
  - name: Location

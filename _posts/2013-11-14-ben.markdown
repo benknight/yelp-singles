@@ -13,9 +13,9 @@ passport:
  num_friends: 127
 
 photos:
- - http://s3-media4.ak.yelpcdn.com/photo/8lbbgzrFFW7-X9zmX9D3fg/300s.jpg
- - http://s3-media2.ak.yelpcdn.com/photo/E-Z0PVVnYVxlVt1wyniMFA/300s.jpg
- - http://s3-media3.ak.yelpcdn.com/photo/4i5e0raY3lry8H4NoSs_rg/300s.jpg
+ - http://placehold.it/300
+ - http://placehold.it/300
+ - http://placehold.it/300
 
 attributes:
  -  name: Location

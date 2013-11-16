@@ -13,11 +13,11 @@ passport:
  num_friends: 38
 
 photos:
- - http://s3-media4.ak.yelpcdn.com/photo/G1DfUT3YoQ0YGOmee81WCw/300s.jpg
- - http://s3-media4.ak.yelpcdn.com/photo/Fxx6l53RASkNXoopUpuTYQ/300s.jpg
- - http://s3-media4.ak.yelpcdn.com/photo/PO8DdqGD238siMlnl9t4jg/300s.jpg
- - http://s3-media1.ak.yelpcdn.com/photo/_U9N0tW4i-MU7lGw6Rv3qA/300s.jpg
- - http://s3-media1.ak.yelpcdn.com/photo/WOmBjvcGxX7ZsM3fdh3cxw/300s.jpg
+ - http://placehold.it/300
+ - http://placehold.it/300
+ - http://placehold.it/300
+ - http://placehold.it/300
+ - http://placehold.it/300
 
 
 attributes:

@@ -1,6 +1,59 @@
 .fade-in {
   opacity: 1 !important; }
 
+.popover:after {
+  left: 85%; }
+
+.alert {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  bottom: 15px;
+  text-align: center; }
+
+.alert.visible {
+  opacity: 1; }
+
+.table-view .table-view-cell {
+  padding-right: 20px; }
+
+.biz-thumb {
+  display: block;
+  float: left;
+  font-size: 0.6em;
+  line-height: 1.3;
+  width: 16.66667%;
+  padding-right: 6px; }
+  .biz-thumb img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px; }
+
+/** Signup */
+.signup {
+  background: url(/assets/splash-alt.gif) no-repeat;
+  background-size: cover; }
+
+.signup-ctrl {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 0 20px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  transition: -webkit-transform 0.3s ease-out; }
+  .signup-ctrl p, .signup-ctrl ul {
+    margin: 18px 0; }
+  .signup-ctrl .girls.selected {
+    background: #FF8FA2;
+    border-left-color: #FF8FA2; }
+
+.signup-ctrl.hide {
+  -webkit-transform: translateY(100%); }
+
+.signup-ctrl.visible {
+  -webkit-transform: translateY(0); }
+
+/** Main view */
 .main {
   overflow: hidden; }
 
@@ -31,11 +84,16 @@
     bottom: 0;
     left: 0;
     padding: 12px;
-    font-size: 29px;
     font-weight: 200;
     color: white;
     background: rgba(0, 0, 0, 0.5);
     text-shadow: 0 1px 5px black; }
+    .main .slider .caption > * {
+      margin: 0; }
+    .main .slider .caption h2 {
+      font-weight: 200; }
+    .main .slider .caption p {
+      color: rgba(255, 255, 255, 0.8); }
 
 .rock-bottom {
   position: absolute;
@@ -55,6 +113,9 @@
     padding: 6px 12px;
     width: 50%;
     float: left; }
+  .passport ul .i {
+    float: left;
+    margin-right: 6px; }
   .passport ul .badge {
     font-size: 1.25em; }
   .passport ul:after {
@@ -62,3 +123,60 @@
     display: block;
     clear: both;
     height: 0; }
+
+/** Profile */
+.profile .slider {
+  height: 300px; }
+  .profile .slider img {
+    width: 100%; }
+.profile dl {
+  margin: 0; }
+.profile dt,
+.profile dd {
+  margin: 0;
+  display: block; }
+.profile dt {
+  font-weight: bold; }
+.profile dd {
+  margin-bottom: 12px; }
+
+/** Icons */
+.i {
+  display: inline-block;
+  background: url(/assets/icons.png) no-repeat;
+  background-size: 323px 72px; }
+
+.i-reviews {
+  width: 21px;
+  height: 21px;
+  background-position: -26px -4px; }
+
+.i-photos {
+  width: 21px;
+  height: 17px;
+  background-position: -283px -6px; }
+
+.i-compliments {
+  width: 20px;
+  height: 20px;
+  background-position: -154px -5px; }
+
+.i-friends {
+  width: 23px;
+  height: 20px;
+  background-position: -3px -47px; }
+
+.elite-tags {
+  width: 100%;
+  height: auto; }
+
+/** Misc */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
